@@ -15,9 +15,7 @@ $(function () {
    
      } 
   }
-  $(".saveBtn").on("click",function(){
-    console.log($(this))
-  })
+ 
   $(document).ready(function (){
     $('.saveBtn').on('click', function (){
       var description = $(this).siblings('.description').val();
